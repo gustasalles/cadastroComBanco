@@ -13,8 +13,7 @@ public class UsuarioEntity {
     private String nacionalidade;
     private String sexo;
 
-    public UsuarioEntity(int id, String nome, String cpf, String endereco, Date dt_nascimento, String profissao, String nacionalidade, String sexo) {
-        this.id = id;
+    public UsuarioEntity(String nome, String cpf, String endereco, Date dt_nascimento, String profissao, String nacionalidade, String sexo) {
         this.nome = nome;
         this.cpf = cpf;
         this.endereco = endereco;
